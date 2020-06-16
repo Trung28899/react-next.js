@@ -24,6 +24,8 @@ VER 1: Setting up next.js
 ----------------------------------------------------------------
 Code in 2nd Commit
 
+- create new empty file, open vs code at that file
+
 Step 1: go to this website to see set up steps: 
 https://nextjs.org/docs/getting-started
 
