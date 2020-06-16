@@ -38,3 +38,9 @@ Step 3:
 $ npm run dev
 > go to your browser localhost:3000
 or localhost:3000/auth
+
+VER 2: Navigate to different pages
+----------------------------------------------------------------
+Code in 3rd Commit
+
+- See src/pages/index.js
