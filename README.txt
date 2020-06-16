@@ -44,3 +44,24 @@ VER 2: Navigate to different pages
 Code in 3rd Commit
 
 - See src/pages/index.js
+
+VER 3: Components, Styling and handling (404) errors
+----------------------------------------------------------------
+Code in 4th Commit
+
+- Components in Next.js: 
+Step 1: Go to components/User.js, see the component here
+Step 2: Go to pages/auth/index.js, see how to implement component here
+Step 3: localhost:3000 > hit any button > will see the /auth page
+
+- Styling in Next.js
+Step 1: see components/User.js to see how to style
+
+- Handling (404) error: 
+Step 1: create file _error.js, see pages/_error.js
+Step 2: go to browser, type localhost:3000/random to see the output
+Step 3: dive deeper, see the link down below
+https://nextjs.org/docs/advanced-features/custom-error-page#customizing-the-error-page
+
+IMPORTANT TO NOTICE: next.js take any page under "pages" folder and will display the 
+default _error.js under "pages" when any non-existence link is entered
