@@ -65,3 +65,32 @@ https://nextjs.org/docs/advanced-features/custom-error-page#customizing-the-erro
 
 IMPORTANT TO NOTICE: next.js take any page under "pages" folder and will display the 
 default _error.js under "pages" when any non-existence link is entered
+
+VER 4: Special Lifecycle hook for async code
+----------------------------------------------------------------
+Code in 5th Commit
+
+Step 1: Go to pages/index.js to see how getInitialProps() is 
+used in class-based Component
+> localhost:3000 to see the result
+
+Step 2: Go to pages/auth/index.js to see how getInitialProps()
+is used in functional Component
+> localhost:3000/auth to see result
+
+Further info, see this link down below: 
+https://nextjs.org/docs/basic-features/data-fetching
+
+VER 5: How to deploy Next.js app
+----------------------------------------------------------------
+Code in 6th Commit
+
+$ npm run build 
+> will get .next/dist which is the file need that will be read
+(Notice that next.js need to have a node.js host to deploy)
+> deploy the whole project to server
+
+on server: 
+$ npm install
+$ npm start 
+
